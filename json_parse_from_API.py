@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Sun Feb 25 19:41:42 2024
-You can use the json module to parse JSON data from a web API. 
-You can use the requests module to get JSON data from a web API and then use the json.loads() function to parse it.
+This script use the get JSON data from a web API call to ESPN NHL stats and then use the json.loads() function to parse it.
 @author: Vincente
 """
 
@@ -10,7 +9,6 @@ import requests
 import json
 
 # Fetch JSON data from a web API
-#response = requests.get("https://api.nasa.gov/neo/rest/v1/neo/browse?api_key=DEMO_KEY")
 response = requests.get("https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard")
 
 # Parse JSON data
