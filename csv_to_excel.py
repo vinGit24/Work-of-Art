@@ -3,9 +3,6 @@
 Created on Sat Feb 24 19:03:42 2024
 This script converts a csv file to excel
 @author: Vincente
-
-FEB 24, 2024.  At the moment the File Open does not work. Revisit.
-
 """
 import openpyxl
 import sys
